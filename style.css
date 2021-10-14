@@ -1,0 +1,114 @@
+#image-1{
+  background-image: none;
+}
+#image-2 {
+  background-image: url(./aestetic-2.jpg);
+  height: 500px ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#image-3 {
+  background-image: url(./aestetic.jpg);
+  height: 500px ;
+  background-repeat: repeat;
+  background-position: top right;
+  background-size: cover;
+}
+#image-4 {
+  background-image: url(./animals.jpg);
+  height: 500px;
+  background-repeat: repeat-y;
+  background-position: bottom;
+  background-size: 350px;
+}
+#image-5 {
+  background-image: url(./kuroko.jpg);
+  height: 500px;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#image-6 {
+  background-image: url(./mirror.jpg);
+  height: 500px;
+  background-size: 150px;
+  background-repeat: repeat;
+  background-position: top;
+}
+#image-7 {
+  background-image: url(./nature-1.jpg);
+  height: 500px;
+  background-size:200px;
+  background-repeat: repeat-y;
+  background-position:center;
+}
+#image-8 {
+  background-image: url(./nature-2.jpg);
+  height: 500px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center:
+}
+#image-9 {
+  background-image: url(./nature.jpg);
+  height: 500px;
+  background-size: 300px;
+  background-repeat: repeat;
+  background-position: left:
+}
+#image-10 {
+  background-image: url(./picture.jpg);
+  height: 500px;
+  background-size: 350px;
+  background-repeat: repeat-x;
+  background-position: right:
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+  background-image: url(./smiley.png);
+  background-size: 50px;
+  width: 300px;
+  height: 250px;
+  border: 3px solid black;
+  margin: 10px;
+}
+#img1 {
+background-image: url(./smile.jpg);
+}
+#img2 {
+  background-image: url(./smile.jpg);
+  background-repeat: repeat-x;
+}
+#img3 {
+  background-image: url(./smile.jpg);
+  background-repeat: repeat-y;
+}
+#img4 {
+  background-image: url(./smile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#img5 {
+  background-image: url(./smile.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#img6 {
+  background-image: url(./smile.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#img7 {
+  background-image: url(./smile.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#img8 {
+  background-image: url(./smile.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
